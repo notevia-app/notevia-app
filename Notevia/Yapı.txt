@@ -1,0 +1,80 @@
+Notevia:
+
+
+Bu uygulama yapay zeka destekli sesli veya yazılı not veya günlük tutma uygualması olacak. 
+Yapay zeka olarak Gemini api kullanacağım. Api keyim: AIzaSyCPsbLFC2RKKf5BTo8GlPvKFd0DiKHMUoM
+Cihaz temasına göre uygulama temasını otomatik değiştir. İsterse kullanıcı ayarlardan karanlık veya aydınlık temaya geçiş yapabilir.
+Uygulama responsive bir yapıda olmalı. tüm telefonlar için yatay ve dikey mod simetrik ve uygun şekilde dizayn edilmeli (bunu dememin sebebi bazı telefonlarda kamera ekran içine gömülü oluyor ya o yüzden). 
+aydınlık temada satatus bar ikonları yazıları siyah, karanlık temada satatus bar ikonları yazıları beyaz olmalı. yatya modda status barı gizle. 
+uygulama için harika, modern renk paletleri oluştur. Bu renk paletlerini ilk açılışta seçmeme izin ver ve ayarlardan değiştirme de yap. bu paletleri karanlık ve aydınlık temaya göre ayarla.
+uygulama global olacağı için ayarlara dil seçenekleri de ekle. zaten otomatik telefonun bulunduğu bölgeye göre dili ayarla ancak isteyen değiştirebilsin. çeşitli dillere çevirirsin sen. 
+Uygulama harika animasyon ve efektlere sahip olmalı. 
+Uygulamanın her özelliğini kur, daha sonra ayarlanmak üzere bırakma.
+Anasayfa:
+Sidebar, üstte hoş geldin mesajı, 
+tümü, önemli, yaklaşan, [Kullancıı filtreleri], gizli filtreleri,
+Sağ altta not ekle butonu,
+Filtrelerde not yoksa o filtreye özel not yok mesajı,
+nota tıklanınca not görüntüleme sayfasına yönlendir.
+gizli notlara basınca pin girme sayfası gelsin.
+notlara basılı tutup birden fazla seçerek silebilmeliyim.
+
+Sidebar:
+Üstte İsim kısmı,
+Altta anasayfa, not ekle, günlüğüm, saat, ayarlar butonu,
+altta uygulama bilgisi (adı ve sürümü)
+
+Not ekleme ekranı:
+Üstte başlık, solda geri dön, sağda kaydet ikonları
+altta ek ayarlar, notevia ai, sesli not butonları
+ek ayarlara basınca alttan modal menü gelicek, burada notu önemli, gizli olarak işaretleyip hatırlatıcı eklenebilmeli, ayrıca yeni bir filtre eklenmeli [eklenince anasayfaya da gelicek belirttim],not ekranı renk ayarı (belirtilen rengi seçince sayfa rengi, ikon renkleri fln da değişmeli),
+altta biçimlendirme araçları quil editör, bunlar tek sıra halinde gruplandırılmış olmalı, sağa doğru kaydırıp istediğim biçimi seçmeliyim, renk ayarı değişince bu ikonların renkleri de aynı şekilde değişmeli, not uzun olacağı için ekranı aşağı kaydırınca bu araç kısmı ekranın üstüne yapışmalı,
+altta not yazma kısmı, sonsuza kadar uzanmalı,
+notevia ai basıldığında modal şeklinde aşağıdan sohbet çubuğu belirmeli, burada sohbet çubuğu, gönder butonu olmalı, göndere bastıktan sonra durdurma butonu da olmalı, yapay zeka yazarken durdurulabilmeli, burada sohbet çubuğuna yazdığım şeyi yapay zeka cevabını not yazma kısmına yazmalı, yapay zeka yazarken kullandığı metin biçimleri gözükmeli, ayrıca yapay zeka not kısmında yazanları okuyabilmeli, böylece sohbet çubuğuna yazdığım nota şunu ekle yazısına cevağ verirken mevcut notu da okumalı.
+sesli nota bastığım zaman yine modal animasyonla aşağıdan gelmeli, burada mevcut nota eklediğim sesli notlar, dinleme, hızlandırma ve indirme butonları ve sesli not ekleme butonu olmalı, bu ekranda basılı tutraka birden fazla sesli notu seçip silebilmeliyim. sesli not ekle deyince yine aynı modal menüde farklı kısım açılmalı, burada kaydetme tuşu olmalı, basınca ortada durdurma, solda duraklatma, sağda ise iptal etme olmalı. duraklatma basınca o zamana kadar kaydedilen sesi dinleyebilmek için oynat tuşu ile değişmeli, durdura basınca isim yazma kısmı (isim yazılmazsa o anın saniyesine kadar saat bilgisini sesli not adı yap.) ve kaydet, iptal etmeye basınca tekrardan kaydet butonunun olduğu kısma geri dön, kaydedilen sesli notun ismini değiştirmeyi de ekle.
+not yazılıp kaydet ikonuna basılınca not detay sayfasına yönlendir.
+notta değişiklik yapılıp, kaydedilmediyse onay mesajı çıkmalı.
+nota hatırlatıcı ayarlanırsa belirtilen gün ve saatte bildirim yolla ve o not açılsın.
+hatırlatıcı kısmına checkbox koy ve tekrar edip etmeme isteiğini öğren. eğer tekrar etmesi isteniliyorsa belirtilen saatte her gün bildirim yolla.
+eğer not hem gizli hem de hatırlatıcı eklenmişse, bildirime tıkladıktan sonra uygulama açıldıktan sonra pini girip notu görüntülesin.
+
+Not detay sayfası:
+bu sayfada üstte başlık, altta eğer filtre eklenmişse bulunduğu filtre, altında yazılma tarihi, ve onun da altında notum yer almalı,
+sesli notlarım adındaki rounded köşeli filtreye basınca eklemiş olduğum sesli notları görüntüleyip, dinleyebildiğim yer olmalı. aynı not ekleme ekranında sesli not butonuna basınca açılan modal menüdeki kısımlar gibi olmalı, sadece bu onun tam sayfa hali, sağ alta sesli not ekleme butonu ekle.
+normal yazılı notum kısmında notu paylaşma, düzenleme ve silme ikonlarını da ekle.
+notu düzenleme seçilince not ekleme ekranında düzenlenebilsin ve kaydedilince tekrar bu ekrana gelsin.
+bu ekranda geri tuşuna basınca anasayfaya dönsün (eğer önemli filtresinde bu nota tıkladıysam, düzenleyip işlemlerimi yapıp geri dönme ikonuna basarsam, anasayfadaki önemli filtresine dönmeli).
+paulaşma butonuna basınca o notu istediğim platformda diğer kullanıcılarla paylaşabileyim.
+not düzenlerken, arkaplana hangi renk ayarlandıysa o renk detay sayfasının da rengi olmalı.
+
+
+Günlüğüm sayfası:
+bu sayfaya da pin ile erişilmeli.
+girildiğinde sayfada gün bilgisi ve o gün günlük yazılmış mı yazılmamış mı o bilgi yer alsın.
+günlük yaz butno olmalı bu butona basılınca günlük yazma ekranına gitmeli.
+o gün saat akşam 8'e kadar günlük yazılmamışsa bildirim yolla bildirime tıklayınca, uygulama açılınca, pin girilsin ve günlüğüm sayfası açılsın.
+
+
+Günlük yazma sayfası:
+Bu sayfa neredeyse not ekleme sayfası gibi olmalı.
+Sadece Ek ayarlarda filtre kısmı olmayacak, notevia ai olmayacak ve sesli not yerine sesli günlük olmalı.
+geri kalanlar aynı.
+istediğim tarihi seçip, ileri veya geri tarihli günlüklerime de erişebilmeliyim.
+
+Günlük görüntüleme sayfası:
+bu sayfa da not görüntüleme sayfası ile aynı olmalı. günlüğü düzenleye basınca günlük yazma sayfasına yönlendir. geri dönme ikonuna basınca günlüğüm sayfasına yönlendir, sesli not yerine sesli günlük rounded filtresi olmalı.
+
+
+Saat sayfası:
+Bu sayfa sadece yatay modda çalışmalı, dikey modda asla çalışmamalı.
+temaya göre güzel bir saat animasyonlu tasarım yap. saat saniye cinsinden olmalı ve isteğe bağlı 12 veya 24 saat seçeneği olmalı (bunu telefonun bulunduğu bölgeye göre oto ayarla ve isteyen kullanıcı ayarlardan değiştirebilsin).
+çift dokununca anasayfaya yönlendir bunun bilgisi yanıp sönen bir animasyon ile yer alsın.
+bir kez dokununca da üstte rounded köşeli filtreler belirsin fade in şeklinde. bu filtreler; saat (şu an seçili), kronometre ve sayaç.
+kronometre seçilince yine aynı temalı bir ekran olmalı, başlata basınca kronometre başlaın, durdurma, duraklatma ve sıfırlama ikonları da olsun.
+saya. seçilince yine aynı temalı bir ekran olmalı, istenilen saat dakika veya saniye girildikten sonra başlata basılınca geri sayım başlasın, geri sayım bittiğinde telefonun default alarm sesi çalsın tamama basınca sayaç ekranına dönülsün ve bu ekran sıfırlansın, yine aynı durdurma duraklatma ve sıfırlama ikonları olmalı.
+
+
+Ayarlar sayafsı:
+Bu sayfada ayarlar, bir grup halinde olmalı, tema (aydınlık, karanlık, sistem), renk paleti (ilk açılışta ayarlanılan renk paltei), isim ve pin (pini değişmek için mevcut pini girmesine gerek yok, yeni şifre için 2. doğrulama iste), saat biçimi, dili değiştirme(basınca dili değiştirir ve uygulamayı yeniden başlatır), verileri dışa aktarma (basıldığında istenilen konuma isim ve pin verileri hariç diğer tüm verileri dışa aktar), verileri içe aktarma (basıldığında istenilen konumda bulunan dışa aktarılmış veriyi içe aktarsın ve uygulamayı yeniden başlatsın) istek, şikayet (basıldığında kullanıcı bir isim ve mail adresi girmeli, istediği mesajı bırakınca notevia.ap@gmail.com adresime bu mesaj mail olarak gelmeli. resim de eklenebilmeli) ve tehlikeli bölge olan verileri sil (basıldığında onay mesajı çıksın, onaylandığında ne var ne yok silsin ve ilk açılış ekranına dönsün).
+
+unutma: telefondan tema, bölge, dil bilgilerini almalısın, uygulama tamamen yerel depolanacak. uygulama güvenliği için gerekli şeyleri yap. uygulamam güvenli olmalı. Uygulamayı yatay mod için de responsive bir tasarım yap. yatay modda durum çubuğunu gizle.
