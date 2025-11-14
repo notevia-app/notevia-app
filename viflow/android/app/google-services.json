@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "523503900616",
+    "project_id": "viflow-22e4f",
+    "storage_bucket": "viflow-22e4f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523503900616:android:f5dbc76d473212d9a7d2fd",
+        "android_client_info": {
+          "package_name": "com.viflow.app.viflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523503900616-8ok3sqot4nhbq8tmbjfl3v7hj1sg7tti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.viflow.app.viflow",
+            "certificate_hash": "28a54340bb88e3ae2f1019dd99be4a22451d38a1"
+          }
+        },
+        {
+          "client_id": "523503900616-b2jjp17p44peikt2ng0q1s001giljlo3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.viflow.app.viflow",
+            "certificate_hash": "8acee4fe4bf73e642046de86d6b5b50ba3bb1bfb"
+          }
+        },
+        {
+          "client_id": "523503900616-vququm6mjt3hbvfr15f5kdc67iah83ag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.viflow.app.viflow",
+            "certificate_hash": "18ed56b4a8870a741ad8702f92982646d3bd19bb"
+          }
+        },
+        {
+          "client_id": "523503900616-in5f9gvvi1lhq5ot8kh1mfl7t3shu6ed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrxyOmYzf2HgYd-JQq0k0P_WBtr6RYoX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523503900616-54k5qmej7qdgb74r959t90nkt9a21i3l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "523503900616-ib7e69ug1avhvu4bmbjipcd9rjr732d3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.viflow.app.viflow"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
