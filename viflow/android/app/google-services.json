@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "523503900616",
+    "project_id": "viflow-22e4f",
+    "storage_bucket": "viflow-22e4f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523503900616:android:f5dbc76d473212d9a7d2fd",
+        "android_client_info": {
+          "package_name": "com.viflow.app.viflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523503900616-fv224n2hm78kp3lde42o9gtrfimrk87u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.viflow.app.viflow",
+            "certificate_hash": "8acee4fe4bf73e642046de86d6b5b50ba3bb1bfb"
+          }
+        },
+        {
+          "client_id": "523503900616-tlja1t1tcl1q5hbt4bktfn6eg10b1dlv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.viflow.app.viflow",
+            "certificate_hash": "18ed56b4a8870a741ad8702f92982646d3bd19bb"
+          }
+        },
+        {
+          "client_id": "523503900616-6rbb5lf278c8802a0gg4suaujepe0ui6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrxyOmYzf2HgYd-JQq0k0P_WBtr6RYoX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523503900616-6rbb5lf278c8802a0gg4suaujepe0ui6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
