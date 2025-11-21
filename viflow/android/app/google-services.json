@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "222478628756",
+    "project_id": "viflow-app-be664",
+    "storage_bucket": "viflow-app-be664.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222478628756:android:ce479145f47a9a17d78181",
+        "android_client_info": {
+          "package_name": "com.viflow.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMlp70QqsiaiofTQPWVtGIqXWZAXncnvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
